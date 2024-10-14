@@ -110,6 +110,9 @@ button:hover{
     transition: background-color, color 0.2s;
     transition-delay: 0.2s;
 }
+.img-tanim{
+    border-radius: 20px;
+}
 
 
 
@@ -270,6 +273,7 @@ img{
         margin: 10px 100px;
         padding: 20px 40px;
         display: flex;
+        
         background-color: rgb(6, 71, 71);
     }
     .img-social img{
@@ -279,11 +283,48 @@ img{
     .Lets-Contact{
         color: white;
     }
+    .footer-container h2{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .footer-container p{
+        font-size: 18px;
+        color: rgb(219, 201, 201);
+        margin-bottom: 20px;
+    }
     .Lets-Massage-Me{
         color: white;
     }
     .Lets-Massage-Me input{
         display: block;
+    }
+    .img-social img{
+        margin-right: 10px;
+
+
+    }
+    .input .text {
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        padding: 10px 20px 10px 10px;
+        border: none;
+        margin-bottom: 10px;
+
+    }
+    .input .btn-footer{
+        padding: 10px 20px;
+        background-color: orangered;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .btn-footer:hover{
+        background-color: rgb(21, 82, 82);
+        font-size: 18px;
+        font-weight: 600
     }
   
 
