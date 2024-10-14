@@ -260,8 +260,30 @@ img{
     /* download cv */
     #download-cv{
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
 
+    }
+
+    /* footer */
+    .footer-container{
+        width: 1320px;
+        margin: 10px 100px;
+        padding: 20px 40px;
+        display: flex;
+        background-color: rgb(6, 71, 71);
+    }
+    .img-social img{
+        height: 30px;
+        width: 30px;
+    }
+    .Lets-Contact{
+        color: white;
+    }
+    .Lets-Massage-Me{
+        color: white;
+    }
+    .Lets-Massage-Me input{
+        display: block;
     }
   
 
