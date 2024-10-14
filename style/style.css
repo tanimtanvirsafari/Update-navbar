@@ -511,6 +511,13 @@ img{
     .btn-footer{
         text-align: center;
     }
+    .info h3{
+        font-size: 12px;
+    }
+    .about-info h4{
+        font-size: 14px;
+        text-align: left;
+    }
 
 }
 
