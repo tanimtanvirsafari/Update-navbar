@@ -226,6 +226,43 @@ img{
     margin-right: 50px;
 }
 
+/* A summary of resume */
+    .summary-section{
+        color: white;
+        margin: 0px 100px;
+        width: 1320px;
+        padding-bottom: 20px;
+
+    }
+    .summary-details h2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .education{
+        display: flex;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .education h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .education h5{
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+    .education p{
+        font-size: 15px;
+        color: rgb(201, 193, 193);
+        margin: 0 50px 20px;
+    }
+    /* download cv */
+    #download-cv{
+        text-align: center;
+        padding-bottom: 50px;
+
+    }
   
 
 
