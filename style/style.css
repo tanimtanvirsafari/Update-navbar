@@ -515,6 +515,11 @@ img{
     }
     .btn-footer{
         text-align: center;
+        margin-right: 10px;
+    }
+    .buttons-footer{
+        display: flex;
+        margin-top: 10px;
     }
     .info h3{
         font-size: 12px;
