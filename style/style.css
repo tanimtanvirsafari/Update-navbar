@@ -179,6 +179,55 @@ img{
 
 /* what i do section */
 
+.what-i-do{
+    padding-bottom: 50px;
+}
+
+.i-do-img{
+    padding: 15px 0px 15px 25px;
+    margin-right: 15px;
+    color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+   
+    
+    
+}
+.i-do-img img{
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.i-do-main{
+    background-image: linear-gradient(130.00deg,
+    rgb(9, 94, 67) 20%, #402541 35%, rgb(9, 94, 67) 100%) ;
+    margin: 30px 100px;
+    padding: 50px 50px;
+    border: 5px solid  rgb(9, 94, 67) 20%, #402541 35%, rgb(9, 94, 67) 100%;
+    border-radius: 20px;
+    justify-content: space-around;
+    
+    
+}
+.image-i-do{
+    display: flex;
+    box-sizing: border-box;
+    
+    
+    
+
+}
+.i-do-title{
+    margin-bottom: 10px;
+}
+.i-do-des{
+    color: rgb(205, 195, 195);
+    padding-right: 10px;
+    margin-right: 50px;
+}
+
+  
+
 
 
 
