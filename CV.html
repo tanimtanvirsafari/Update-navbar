@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download-cv</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        body{
+            background: linear-gradient(90deg, rgb(64, 8, 37) 0%, rgb(39, 7, 54) 35%, rgb(20, 52, 57) 100%);
+            color: white;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial;
+        }
+        .picture-box{
+            width: 400px;
+            height: 550px;
+           margin: 50px auto;
+           box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+           border-radius: 10px;
+           overflow: hidden;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          
+         
+
+        }
+        .picture-box img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+            
+            
+        }
+        
+        .header-h1{
+            font-size: 50px;
+            font-weight: 700;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .header-p{
+            font-size: 19px;
+            font-weight: 400;
+            color: white;
+            margin-top: -20px 0;
+
+        }
+
+        @media (max-width: 900px) {
+            .header-h1{
+                font-size: 30px;
+            }
+            .main{
+                margin-top: 120px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Tanim</h1>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CV.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="https://wa.me/+8801851717924">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+        </nav>
+    
+        <script>
+            function toggleMenu() {
+                const navLinks = document.getElementById('navLinks');
+                if (navLinks.style.display === 'block') {
+                    navLinks.style.display = 'none';
+                } else {
+                    navLinks.style.display = 'block';
+                }
+            }
+        </script>
+    </header>
+    <div class="main">
+        <h1 class="header-h1">HABIBUR's CV</h1>
+        <p class="header-p">Assalamu Alaikum. I am Habibur Rahaman Tanim. I am a web developer. I can help you. If you need my help, press the contact button.</p>
+
+    </div>
+    
+
+        
+
+<div class="picture-box">
+    <img src="images/CV.jpg" alt="">
+</div>
+    
+</body>
+</html>
