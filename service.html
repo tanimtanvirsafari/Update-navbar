@@ -5,6 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .services-section {
+            padding: 50px 20px;
+            background-color: #0aa2ad;
+        }
+
+        .services-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding-bottom: 50px;
+        }
+
+        .service-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-box h3 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .service-box p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .service-box .icon {
+            font-size: 40px;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 36px;
+            color:rgb(33, 63, 50);
+        }
+        /* Media Query for screens with max width 900px */
+        @media (max-width: 900px) {
+            .services-container {
+                grid-template-columns: 1fr;
+            }
+
+            .service-box h3 {
+                font-size: 20px;
+            }
+
+            .service-box p {
+                font-size: 14px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -34,6 +112,33 @@
             }
         </script>
     </header>
+    
+    <section class="services-section">
+        <h1 class="section-title">My Services</h1>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="icon">🌐</div>
+                <h3>Website Design</h3>
+                <p>Creating visually appealing, user-friendly website designs that enhance the user experience and reflect your brand identity.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon">💻</div>
+                <h3>Web Development</h3>
+                <p>Developing dynamic and responsive websites using the latest technologies like HTML, CSS, JavaScript, React, and MongoDB.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon">🔍</div>
+                <h3>SEO Optimization</h3>
+                <p>Improving website visibility in search engines through effective on-page and off-page SEO strategies.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon">🛠️</div>
+                <h3>Website Maintenance</h3>
+                <p>Providing ongoing support and maintenance to ensure your website remains up-to-date, secure, and running smoothly.</p>
+            </div>
+        </div>
+    </section>
+
     
 </body>
 </html>
